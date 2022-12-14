@@ -1,0 +1,14 @@
+program Player;
+
+uses
+  Forms,
+  uPlayer in 'uPlayer.pas' {Form1},
+  uBot in 'uBot.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
